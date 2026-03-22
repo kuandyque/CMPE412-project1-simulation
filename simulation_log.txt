@@ -1,0 +1,460 @@
+Starting Simulation for 100 customers.
+--------------------------------------------------------
+[Time 0] Customer 0 arrived.
+[Time 0] Server is free! Newcomer Customer 0 assigned to Server 0 (Service Time: 4).
+   --> [Queue Length: 0] [Server Status: S0(C0) S1(IDLE) S2(IDLE) ]
+[Time 2] Customer 1 arrived.
+[Time 2] Server is free! Newcomer Customer 1 assigned to Server 1 (Service Time: 4).
+   --> [Queue Length: 0] [Server Status: S0(C0) S1(C1) S2(IDLE) ]
+[Time 4] Customer 0 finished service at Server 0.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(C1) S2(IDLE) ]
+[Time 5] Customer 2 arrived.
+[Time 5] Server is free! Newcomer Customer 2 assigned to Server 0 (Service Time: 5).
+   --> [Queue Length: 0] [Server Status: S0(C2) S1(C1) S2(IDLE) ]
+[Time 6] Customer 1 finished service at Server 1.
+   --> [Queue Length: 0] [Server Status: S0(C2) S1(IDLE) S2(IDLE) ]
+[Time 8] Customer 3 arrived.
+[Time 8] Server is free! Newcomer Customer 3 assigned to Server 1 (Service Time: 4).
+   --> [Queue Length: 0] [Server Status: S0(C2) S1(C3) S2(IDLE) ]
+[Time 10] Customer 2 finished service at Server 0.
+[Time 10] Customer 4 arrived.
+[Time 10] Server is free! Newcomer Customer 4 assigned to Server 0 (Service Time: 5).
+   --> [Queue Length: 0] [Server Status: S0(C4) S1(C3) S2(IDLE) ]
+[Time 12] Customer 3 finished service at Server 1.
+   --> [Queue Length: 0] [Server Status: S0(C4) S1(IDLE) S2(IDLE) ]
+[Time 13] Customer 5 arrived.
+[Time 13] Server is free! Newcomer Customer 5 assigned to Server 1 (Service Time: 5).
+   --> [Queue Length: 0] [Server Status: S0(C4) S1(C5) S2(IDLE) ]
+[Time 14] Customer 6 arrived.
+[Time 14] Server is free! Newcomer Customer 6 assigned to Server 2 (Service Time: 4).
+   --> [Queue Length: 0] [Server Status: S0(C4) S1(C5) S2(C6) ]
+[Time 15] Customer 4 finished service at Server 0.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(C5) S2(C6) ]
+[Time 18] Customer 5 finished service at Server 1.
+[Time 18] Customer 6 finished service at Server 2.
+[Time 18] Customer 7 arrived.
+[Time 18] Server is free! Newcomer Customer 7 assigned to Server 0 (Service Time: 4).
+   --> [Queue Length: 0] [Server Status: S0(C7) S1(IDLE) S2(IDLE) ]
+[Time 22] Customer 7 finished service at Server 0.
+[Time 22] Customer 8 arrived.
+[Time 22] Server is free! Newcomer Customer 8 assigned to Server 0 (Service Time: 4).
+   --> [Queue Length: 0] [Server Status: S0(C8) S1(IDLE) S2(IDLE) ]
+[Time 26] Customer 8 finished service at Server 0.
+[Time 26] Customer 9 arrived.
+[Time 26] Server is free! Newcomer Customer 9 assigned to Server 0 (Service Time: 3).
+   --> [Queue Length: 0] [Server Status: S0(C9) S1(IDLE) S2(IDLE) ]
+[Time 28] Customer 10 arrived.
+[Time 28] Server is free! Newcomer Customer 10 assigned to Server 1 (Service Time: 3).
+   --> [Queue Length: 0] [Server Status: S0(C9) S1(C10) S2(IDLE) ]
+[Time 29] Customer 9 finished service at Server 0.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(C10) S2(IDLE) ]
+[Time 30] Customer 11 arrived.
+[Time 30] Server is free! Newcomer Customer 11 assigned to Server 0 (Service Time: 2).
+   --> [Queue Length: 0] [Server Status: S0(C11) S1(C10) S2(IDLE) ]
+[Time 31] Customer 10 finished service at Server 1.
+[Time 31] Customer 12 arrived.
+[Time 31] Server is free! Newcomer Customer 12 assigned to Server 1 (Service Time: 4).
+   --> [Queue Length: 0] [Server Status: S0(C11) S1(C12) S2(IDLE) ]
+[Time 32] Customer 11 finished service at Server 0.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(C12) S2(IDLE) ]
+[Time 33] Customer 13 arrived.
+[Time 33] Server is free! Newcomer Customer 13 assigned to Server 0 (Service Time: 2).
+   --> [Queue Length: 0] [Server Status: S0(C13) S1(C12) S2(IDLE) ]
+[Time 35] Customer 12 finished service at Server 1.
+[Time 35] Customer 13 finished service at Server 0.
+[Time 35] Customer 14 arrived.
+[Time 35] Server is free! Newcomer Customer 14 assigned to Server 0 (Service Time: 3).
+   --> [Queue Length: 0] [Server Status: S0(C14) S1(IDLE) S2(IDLE) ]
+[Time 36] Customer 15 arrived.
+[Time 36] Server is free! Newcomer Customer 15 assigned to Server 1 (Service Time: 3).
+   --> [Queue Length: 0] [Server Status: S0(C14) S1(C15) S2(IDLE) ]
+[Time 38] Customer 14 finished service at Server 0.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(C15) S2(IDLE) ]
+[Time 39] Customer 15 finished service at Server 1.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(IDLE) S2(IDLE) ]
+[Time 40] Customer 16 arrived.
+[Time 40] Server is free! Newcomer Customer 16 assigned to Server 0 (Service Time: 6).
+   --> [Queue Length: 0] [Server Status: S0(C16) S1(IDLE) S2(IDLE) ]
+[Time 44] Customer 17 arrived.
+[Time 44] Server is free! Newcomer Customer 17 assigned to Server 1 (Service Time: 5).
+   --> [Queue Length: 0] [Server Status: S0(C16) S1(C17) S2(IDLE) ]
+[Time 46] Customer 16 finished service at Server 0.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(C17) S2(IDLE) ]
+[Time 48] Customer 18 arrived.
+[Time 48] Server is free! Newcomer Customer 18 assigned to Server 0 (Service Time: 5).
+   --> [Queue Length: 0] [Server Status: S0(C18) S1(C17) S2(IDLE) ]
+[Time 49] Customer 17 finished service at Server 1.
+   --> [Queue Length: 0] [Server Status: S0(C18) S1(IDLE) S2(IDLE) ]
+[Time 50] Customer 19 arrived.
+[Time 50] Server is free! Newcomer Customer 19 assigned to Server 1 (Service Time: 4).
+   --> [Queue Length: 0] [Server Status: S0(C18) S1(C19) S2(IDLE) ]
+[Time 53] Customer 18 finished service at Server 0.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(C19) S2(IDLE) ]
+[Time 54] Customer 19 finished service at Server 1.
+[Time 54] Customer 20 arrived.
+[Time 54] Server is free! Newcomer Customer 20 assigned to Server 0 (Service Time: 5).
+   --> [Queue Length: 0] [Server Status: S0(C20) S1(IDLE) S2(IDLE) ]
+[Time 58] Customer 21 arrived.
+[Time 58] Server is free! Newcomer Customer 21 assigned to Server 1 (Service Time: 3).
+   --> [Queue Length: 0] [Server Status: S0(C20) S1(C21) S2(IDLE) ]
+[Time 59] Customer 20 finished service at Server 0.
+[Time 59] Customer 22 arrived.
+[Time 59] Server is free! Newcomer Customer 22 assigned to Server 0 (Service Time: 5).
+   --> [Queue Length: 0] [Server Status: S0(C22) S1(C21) S2(IDLE) ]
+[Time 61] Customer 21 finished service at Server 1.
+   --> [Queue Length: 0] [Server Status: S0(C22) S1(IDLE) S2(IDLE) ]
+[Time 62] Customer 23 arrived.
+[Time 62] Server is free! Newcomer Customer 23 assigned to Server 1 (Service Time: 4).
+   --> [Queue Length: 0] [Server Status: S0(C22) S1(C23) S2(IDLE) ]
+[Time 64] Customer 22 finished service at Server 0.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(C23) S2(IDLE) ]
+[Time 65] Customer 24 arrived.
+[Time 65] Server is free! Newcomer Customer 24 assigned to Server 0 (Service Time: 2).
+   --> [Queue Length: 0] [Server Status: S0(C24) S1(C23) S2(IDLE) ]
+[Time 66] Customer 23 finished service at Server 1.
+   --> [Queue Length: 0] [Server Status: S0(C24) S1(IDLE) S2(IDLE) ]
+[Time 67] Customer 24 finished service at Server 0.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(IDLE) S2(IDLE) ]
+[Time 69] Customer 25 arrived.
+[Time 69] Server is free! Newcomer Customer 25 assigned to Server 0 (Service Time: 4).
+   --> [Queue Length: 0] [Server Status: S0(C25) S1(IDLE) S2(IDLE) ]
+[Time 72] Customer 26 arrived.
+[Time 72] Server is free! Newcomer Customer 26 assigned to Server 1 (Service Time: 5).
+   --> [Queue Length: 0] [Server Status: S0(C25) S1(C26) S2(IDLE) ]
+[Time 73] Customer 25 finished service at Server 0.
+[Time 73] Customer 27 arrived.
+[Time 73] Server is free! Newcomer Customer 27 assigned to Server 0 (Service Time: 4).
+   --> [Queue Length: 0] [Server Status: S0(C27) S1(C26) S2(IDLE) ]
+[Time 75] Customer 28 arrived.
+[Time 75] Server is free! Newcomer Customer 28 assigned to Server 2 (Service Time: 2).
+   --> [Queue Length: 0] [Server Status: S0(C27) S1(C26) S2(C28) ]
+[Time 77] Customer 26 finished service at Server 1.
+[Time 77] Customer 27 finished service at Server 0.
+[Time 77] Customer 28 finished service at Server 2.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(IDLE) S2(IDLE) ]
+[Time 79] Customer 29 arrived.
+[Time 79] Server is free! Newcomer Customer 29 assigned to Server 0 (Service Time: 5).
+   --> [Queue Length: 0] [Server Status: S0(C29) S1(IDLE) S2(IDLE) ]
+[Time 83] Customer 30 arrived.
+[Time 83] Server is free! Newcomer Customer 30 assigned to Server 1 (Service Time: 2).
+   --> [Queue Length: 0] [Server Status: S0(C29) S1(C30) S2(IDLE) ]
+[Time 84] Customer 29 finished service at Server 0.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(C30) S2(IDLE) ]
+[Time 85] Customer 30 finished service at Server 1.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(IDLE) S2(IDLE) ]
+[Time 87] Customer 31 arrived.
+[Time 87] Server is free! Newcomer Customer 31 assigned to Server 0 (Service Time: 3).
+   --> [Queue Length: 0] [Server Status: S0(C31) S1(IDLE) S2(IDLE) ]
+[Time 88] Customer 32 arrived.
+[Time 88] Server is free! Newcomer Customer 32 assigned to Server 1 (Service Time: 3).
+   --> [Queue Length: 0] [Server Status: S0(C31) S1(C32) S2(IDLE) ]
+[Time 89] Customer 33 arrived.
+[Time 89] Server is free! Newcomer Customer 33 assigned to Server 2 (Service Time: 5).
+   --> [Queue Length: 0] [Server Status: S0(C31) S1(C32) S2(C33) ]
+[Time 90] Customer 31 finished service at Server 0.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(C32) S2(C33) ]
+[Time 91] Customer 32 finished service at Server 1.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(IDLE) S2(C33) ]
+[Time 94] Customer 33 finished service at Server 2.
+[Time 94] Customer 34 arrived.
+[Time 94] Server is free! Newcomer Customer 34 assigned to Server 0 (Service Time: 5).
+   --> [Queue Length: 0] [Server Status: S0(C34) S1(IDLE) S2(IDLE) ]
+[Time 95] Customer 35 arrived.
+[Time 95] Server is free! Newcomer Customer 35 assigned to Server 1 (Service Time: 5).
+   --> [Queue Length: 0] [Server Status: S0(C34) S1(C35) S2(IDLE) ]
+[Time 99] Customer 34 finished service at Server 0.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(C35) S2(IDLE) ]
+[Time 100] Customer 35 finished service at Server 1.
+[Time 100] Customer 36 arrived.
+[Time 100] Server is free! Newcomer Customer 36 assigned to Server 0 (Service Time: 5).
+   --> [Queue Length: 0] [Server Status: S0(C36) S1(IDLE) S2(IDLE) ]
+[Time 104] Customer 37 arrived.
+[Time 104] Server is free! Newcomer Customer 37 assigned to Server 1 (Service Time: 4).
+   --> [Queue Length: 0] [Server Status: S0(C36) S1(C37) S2(IDLE) ]
+[Time 105] Customer 36 finished service at Server 0.
+[Time 105] Customer 38 arrived.
+[Time 105] Server is free! Newcomer Customer 38 assigned to Server 0 (Service Time: 3).
+   --> [Queue Length: 0] [Server Status: S0(C38) S1(C37) S2(IDLE) ]
+[Time 106] Customer 39 arrived.
+[Time 106] Server is free! Newcomer Customer 39 assigned to Server 2 (Service Time: 3).
+   --> [Queue Length: 0] [Server Status: S0(C38) S1(C37) S2(C39) ]
+[Time 108] Customer 37 finished service at Server 1.
+[Time 108] Customer 38 finished service at Server 0.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(IDLE) S2(C39) ]
+[Time 109] Customer 39 finished service at Server 2.
+[Time 109] Customer 40 arrived.
+[Time 109] Server is free! Newcomer Customer 40 assigned to Server 0 (Service Time: 4).
+   --> [Queue Length: 0] [Server Status: S0(C40) S1(IDLE) S2(IDLE) ]
+[Time 110] Customer 41 arrived.
+[Time 110] Server is free! Newcomer Customer 41 assigned to Server 1 (Service Time: 5).
+   --> [Queue Length: 0] [Server Status: S0(C40) S1(C41) S2(IDLE) ]
+[Time 113] Customer 40 finished service at Server 0.
+[Time 113] Customer 42 arrived.
+[Time 113] Server is free! Newcomer Customer 42 assigned to Server 0 (Service Time: 4).
+   --> [Queue Length: 0] [Server Status: S0(C42) S1(C41) S2(IDLE) ]
+[Time 115] Customer 41 finished service at Server 1.
+[Time 115] Customer 43 arrived.
+[Time 115] Server is free! Newcomer Customer 43 assigned to Server 1 (Service Time: 5).
+   --> [Queue Length: 0] [Server Status: S0(C42) S1(C43) S2(IDLE) ]
+[Time 117] Customer 42 finished service at Server 0.
+[Time 117] Customer 44 arrived.
+[Time 117] Server is free! Newcomer Customer 44 assigned to Server 0 (Service Time: 4).
+   --> [Queue Length: 0] [Server Status: S0(C44) S1(C43) S2(IDLE) ]
+[Time 118] Customer 45 arrived.
+[Time 118] Server is free! Newcomer Customer 45 assigned to Server 2 (Service Time: 5).
+   --> [Queue Length: 0] [Server Status: S0(C44) S1(C43) S2(C45) ]
+[Time 120] Customer 43 finished service at Server 1.
+[Time 120] Customer 46 arrived.
+[Time 120] Server is free! Newcomer Customer 46 assigned to Server 1 (Service Time: 3).
+   --> [Queue Length: 0] [Server Status: S0(C44) S1(C46) S2(C45) ]
+[Time 121] Customer 44 finished service at Server 0.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(C46) S2(C45) ]
+[Time 122] Customer 47 arrived.
+[Time 122] Server is free! Newcomer Customer 47 assigned to Server 0 (Service Time: 2).
+   --> [Queue Length: 0] [Server Status: S0(C47) S1(C46) S2(C45) ]
+[Time 123] Customer 45 finished service at Server 2.
+[Time 123] Customer 46 finished service at Server 1.
+   --> [Queue Length: 0] [Server Status: S0(C47) S1(IDLE) S2(IDLE) ]
+[Time 124] Customer 47 finished service at Server 0.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(IDLE) S2(IDLE) ]
+[Time 126] Customer 48 arrived.
+[Time 126] Server is free! Newcomer Customer 48 assigned to Server 0 (Service Time: 3).
+   --> [Queue Length: 0] [Server Status: S0(C48) S1(IDLE) S2(IDLE) ]
+[Time 128] Customer 49 arrived.
+[Time 128] Server is free! Newcomer Customer 49 assigned to Server 1 (Service Time: 3).
+   --> [Queue Length: 0] [Server Status: S0(C48) S1(C49) S2(IDLE) ]
+[Time 129] Customer 48 finished service at Server 0.
+[Time 129] Customer 50 arrived.
+[Time 129] Server is free! Newcomer Customer 50 assigned to Server 0 (Service Time: 4).
+   --> [Queue Length: 0] [Server Status: S0(C50) S1(C49) S2(IDLE) ]
+[Time 131] Customer 49 finished service at Server 1.
+[Time 131] Customer 51 arrived.
+[Time 131] Server is free! Newcomer Customer 51 assigned to Server 1 (Service Time: 5).
+   --> [Queue Length: 0] [Server Status: S0(C50) S1(C51) S2(IDLE) ]
+[Time 133] Customer 50 finished service at Server 0.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(C51) S2(IDLE) ]
+[Time 134] Customer 52 arrived.
+[Time 134] Server is free! Newcomer Customer 52 assigned to Server 0 (Service Time: 4).
+   --> [Queue Length: 0] [Server Status: S0(C52) S1(C51) S2(IDLE) ]
+[Time 135] Customer 53 arrived.
+[Time 135] Server is free! Newcomer Customer 53 assigned to Server 2 (Service Time: 4).
+   --> [Queue Length: 0] [Server Status: S0(C52) S1(C51) S2(C53) ]
+[Time 136] Customer 51 finished service at Server 1.
+   --> [Queue Length: 0] [Server Status: S0(C52) S1(IDLE) S2(C53) ]
+[Time 138] Customer 52 finished service at Server 0.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(IDLE) S2(C53) ]
+[Time 139] Customer 53 finished service at Server 2.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(IDLE) S2(IDLE) ]
+[Time 140] Customer 54 arrived.
+[Time 140] Server is free! Newcomer Customer 54 assigned to Server 0 (Service Time: 6).
+   --> [Queue Length: 0] [Server Status: S0(C54) S1(IDLE) S2(IDLE) ]
+[Time 141] Customer 55 arrived.
+[Time 141] Server is free! Newcomer Customer 55 assigned to Server 1 (Service Time: 2).
+   --> [Queue Length: 0] [Server Status: S0(C54) S1(C55) S2(IDLE) ]
+[Time 143] Customer 55 finished service at Server 1.
+[Time 143] Customer 56 arrived.
+[Time 143] Server is free! Newcomer Customer 56 assigned to Server 1 (Service Time: 2).
+   --> [Queue Length: 0] [Server Status: S0(C54) S1(C56) S2(IDLE) ]
+[Time 145] Customer 56 finished service at Server 1.
+   --> [Queue Length: 0] [Server Status: S0(C54) S1(IDLE) S2(IDLE) ]
+[Time 146] Customer 54 finished service at Server 0.
+[Time 146] Customer 57 arrived.
+[Time 146] Server is free! Newcomer Customer 57 assigned to Server 0 (Service Time: 5).
+   --> [Queue Length: 0] [Server Status: S0(C57) S1(IDLE) S2(IDLE) ]
+[Time 148] Customer 58 arrived.
+[Time 148] Server is free! Newcomer Customer 58 assigned to Server 1 (Service Time: 6).
+   --> [Queue Length: 0] [Server Status: S0(C57) S1(C58) S2(IDLE) ]
+[Time 151] Customer 57 finished service at Server 0.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(C58) S2(IDLE) ]
+[Time 152] Customer 59 arrived.
+[Time 152] Server is free! Newcomer Customer 59 assigned to Server 0 (Service Time: 5).
+   --> [Queue Length: 0] [Server Status: S0(C59) S1(C58) S2(IDLE) ]
+[Time 154] Customer 58 finished service at Server 1.
+   --> [Queue Length: 0] [Server Status: S0(C59) S1(IDLE) S2(IDLE) ]
+[Time 155] Customer 60 arrived.
+[Time 155] Server is free! Newcomer Customer 60 assigned to Server 1 (Service Time: 2).
+   --> [Queue Length: 0] [Server Status: S0(C59) S1(C60) S2(IDLE) ]
+[Time 157] Customer 59 finished service at Server 0.
+[Time 157] Customer 60 finished service at Server 1.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(IDLE) S2(IDLE) ]
+[Time 158] Customer 61 arrived.
+[Time 158] Server is free! Newcomer Customer 61 assigned to Server 0 (Service Time: 4).
+   --> [Queue Length: 0] [Server Status: S0(C61) S1(IDLE) S2(IDLE) ]
+[Time 161] Customer 62 arrived.
+[Time 161] Server is free! Newcomer Customer 62 assigned to Server 1 (Service Time: 6).
+   --> [Queue Length: 0] [Server Status: S0(C61) S1(C62) S2(IDLE) ]
+[Time 162] Customer 61 finished service at Server 0.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(C62) S2(IDLE) ]
+[Time 163] Customer 63 arrived.
+[Time 163] Server is free! Newcomer Customer 63 assigned to Server 0 (Service Time: 5).
+   --> [Queue Length: 0] [Server Status: S0(C63) S1(C62) S2(IDLE) ]
+[Time 167] Customer 62 finished service at Server 1.
+   --> [Queue Length: 0] [Server Status: S0(C63) S1(IDLE) S2(IDLE) ]
+[Time 168] Customer 63 finished service at Server 0.
+[Time 168] Customer 64 arrived.
+[Time 168] Server is free! Newcomer Customer 64 assigned to Server 0 (Service Time: 3).
+   --> [Queue Length: 0] [Server Status: S0(C64) S1(IDLE) S2(IDLE) ]
+[Time 171] Customer 64 finished service at Server 0.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(IDLE) S2(IDLE) ]
+[Time 172] Customer 65 arrived.
+[Time 172] Server is free! Newcomer Customer 65 assigned to Server 0 (Service Time: 4).
+   --> [Queue Length: 0] [Server Status: S0(C65) S1(IDLE) S2(IDLE) ]
+[Time 175] Customer 66 arrived.
+[Time 175] Server is free! Newcomer Customer 66 assigned to Server 1 (Service Time: 5).
+   --> [Queue Length: 0] [Server Status: S0(C65) S1(C66) S2(IDLE) ]
+[Time 176] Customer 65 finished service at Server 0.
+[Time 176] Customer 67 arrived.
+[Time 176] Server is free! Newcomer Customer 67 assigned to Server 0 (Service Time: 5).
+   --> [Queue Length: 0] [Server Status: S0(C67) S1(C66) S2(IDLE) ]
+[Time 179] Customer 68 arrived.
+[Time 179] Server is free! Newcomer Customer 68 assigned to Server 2 (Service Time: 5).
+   --> [Queue Length: 0] [Server Status: S0(C67) S1(C66) S2(C68) ]
+[Time 180] Customer 66 finished service at Server 1.
+   --> [Queue Length: 0] [Server Status: S0(C67) S1(IDLE) S2(C68) ]
+[Time 181] Customer 67 finished service at Server 0.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(IDLE) S2(C68) ]
+[Time 182] Customer 69 arrived.
+[Time 182] Server is free! Newcomer Customer 69 assigned to Server 0 (Service Time: 6).
+   --> [Queue Length: 0] [Server Status: S0(C69) S1(IDLE) S2(C68) ]
+[Time 184] Customer 68 finished service at Server 2.
+   --> [Queue Length: 0] [Server Status: S0(C69) S1(IDLE) S2(IDLE) ]
+[Time 187] Customer 70 arrived.
+[Time 187] Server is free! Newcomer Customer 70 assigned to Server 1 (Service Time: 2).
+   --> [Queue Length: 0] [Server Status: S0(C69) S1(C70) S2(IDLE) ]
+[Time 188] Customer 69 finished service at Server 0.
+[Time 188] Customer 71 arrived.
+[Time 188] Server is free! Newcomer Customer 71 assigned to Server 0 (Service Time: 5).
+   --> [Queue Length: 0] [Server Status: S0(C71) S1(C70) S2(IDLE) ]
+[Time 189] Customer 70 finished service at Server 1.
+   --> [Queue Length: 0] [Server Status: S0(C71) S1(IDLE) S2(IDLE) ]
+[Time 190] Customer 72 arrived.
+[Time 190] Server is free! Newcomer Customer 72 assigned to Server 1 (Service Time: 6).
+   --> [Queue Length: 0] [Server Status: S0(C71) S1(C72) S2(IDLE) ]
+[Time 193] Customer 71 finished service at Server 0.
+[Time 193] Customer 73 arrived.
+[Time 193] Server is free! Newcomer Customer 73 assigned to Server 0 (Service Time: 2).
+   --> [Queue Length: 0] [Server Status: S0(C73) S1(C72) S2(IDLE) ]
+[Time 194] Customer 74 arrived.
+[Time 194] Server is free! Newcomer Customer 74 assigned to Server 2 (Service Time: 4).
+   --> [Queue Length: 0] [Server Status: S0(C73) S1(C72) S2(C74) ]
+[Time 195] Customer 73 finished service at Server 0.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(C72) S2(C74) ]
+[Time 196] Customer 72 finished service at Server 1.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(IDLE) S2(C74) ]
+[Time 198] Customer 74 finished service at Server 2.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(IDLE) S2(IDLE) ]
+[Time 199] Customer 75 arrived.
+[Time 199] Server is free! Newcomer Customer 75 assigned to Server 0 (Service Time: 6).
+   --> [Queue Length: 0] [Server Status: S0(C75) S1(IDLE) S2(IDLE) ]
+[Time 203] Customer 76 arrived.
+[Time 203] Server is free! Newcomer Customer 76 assigned to Server 1 (Service Time: 5).
+   --> [Queue Length: 0] [Server Status: S0(C75) S1(C76) S2(IDLE) ]
+[Time 205] Customer 75 finished service at Server 0.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(C76) S2(IDLE) ]
+[Time 206] Customer 77 arrived.
+[Time 206] Server is free! Newcomer Customer 77 assigned to Server 0 (Service Time: 3).
+   --> [Queue Length: 0] [Server Status: S0(C77) S1(C76) S2(IDLE) ]
+[Time 208] Customer 76 finished service at Server 1.
+   --> [Queue Length: 0] [Server Status: S0(C77) S1(IDLE) S2(IDLE) ]
+[Time 209] Customer 77 finished service at Server 0.
+[Time 209] Customer 78 arrived.
+[Time 209] Server is free! Newcomer Customer 78 assigned to Server 0 (Service Time: 2).
+   --> [Queue Length: 0] [Server Status: S0(C78) S1(IDLE) S2(IDLE) ]
+[Time 211] Customer 78 finished service at Server 0.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(IDLE) S2(IDLE) ]
+[Time 212] Customer 79 arrived.
+[Time 212] Server is free! Newcomer Customer 79 assigned to Server 0 (Service Time: 4).
+   --> [Queue Length: 0] [Server Status: S0(C79) S1(IDLE) S2(IDLE) ]
+[Time 214] Customer 80 arrived.
+[Time 214] Server is free! Newcomer Customer 80 assigned to Server 1 (Service Time: 4).
+   --> [Queue Length: 0] [Server Status: S0(C79) S1(C80) S2(IDLE) ]
+[Time 216] Customer 79 finished service at Server 0.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(C80) S2(IDLE) ]
+[Time 218] Customer 80 finished service at Server 1.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(IDLE) S2(IDLE) ]
+[Time 219] Customer 81 arrived.
+[Time 219] Server is free! Newcomer Customer 81 assigned to Server 0 (Service Time: 3).
+   --> [Queue Length: 0] [Server Status: S0(C81) S1(IDLE) S2(IDLE) ]
+[Time 222] Customer 81 finished service at Server 0.
+[Time 222] Customer 82 arrived.
+[Time 222] Server is free! Newcomer Customer 82 assigned to Server 0 (Service Time: 4).
+   --> [Queue Length: 0] [Server Status: S0(C82) S1(IDLE) S2(IDLE) ]
+[Time 224] Customer 83 arrived.
+[Time 224] Server is free! Newcomer Customer 83 assigned to Server 1 (Service Time: 2).
+   --> [Queue Length: 0] [Server Status: S0(C82) S1(C83) S2(IDLE) ]
+[Time 226] Customer 82 finished service at Server 0.
+[Time 226] Customer 83 finished service at Server 1.
+[Time 226] Customer 84 arrived.
+[Time 226] Server is free! Newcomer Customer 84 assigned to Server 0 (Service Time: 4).
+   --> [Queue Length: 0] [Server Status: S0(C84) S1(IDLE) S2(IDLE) ]
+[Time 227] Customer 85 arrived.
+[Time 227] Server is free! Newcomer Customer 85 assigned to Server 1 (Service Time: 4).
+   --> [Queue Length: 0] [Server Status: S0(C84) S1(C85) S2(IDLE) ]
+[Time 230] Customer 84 finished service at Server 0.
+[Time 230] Customer 86 arrived.
+[Time 230] Server is free! Newcomer Customer 86 assigned to Server 0 (Service Time: 5).
+   --> [Queue Length: 0] [Server Status: S0(C86) S1(C85) S2(IDLE) ]
+[Time 231] Customer 85 finished service at Server 1.
+   --> [Queue Length: 0] [Server Status: S0(C86) S1(IDLE) S2(IDLE) ]
+[Time 235] Customer 86 finished service at Server 0.
+[Time 235] Customer 87 arrived.
+[Time 235] Server is free! Newcomer Customer 87 assigned to Server 0 (Service Time: 4).
+   --> [Queue Length: 0] [Server Status: S0(C87) S1(IDLE) S2(IDLE) ]
+[Time 239] Customer 87 finished service at Server 0.
+[Time 239] Customer 88 arrived.
+[Time 239] Server is free! Newcomer Customer 88 assigned to Server 0 (Service Time: 6).
+   --> [Queue Length: 0] [Server Status: S0(C88) S1(IDLE) S2(IDLE) ]
+[Time 242] Customer 89 arrived.
+[Time 242] Server is free! Newcomer Customer 89 assigned to Server 1 (Service Time: 4).
+   --> [Queue Length: 0] [Server Status: S0(C88) S1(C89) S2(IDLE) ]
+[Time 245] Customer 88 finished service at Server 0.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(C89) S2(IDLE) ]
+[Time 246] Customer 89 finished service at Server 1.
+[Time 246] Customer 90 arrived.
+[Time 246] Server is free! Newcomer Customer 90 assigned to Server 0 (Service Time: 4).
+   --> [Queue Length: 0] [Server Status: S0(C90) S1(IDLE) S2(IDLE) ]
+[Time 248] Customer 91 arrived.
+[Time 248] Server is free! Newcomer Customer 91 assigned to Server 1 (Service Time: 4).
+   --> [Queue Length: 0] [Server Status: S0(C90) S1(C91) S2(IDLE) ]
+[Time 250] Customer 90 finished service at Server 0.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(C91) S2(IDLE) ]
+[Time 252] Customer 91 finished service at Server 1.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(IDLE) S2(IDLE) ]
+[Time 253] Customer 92 arrived.
+[Time 253] Server is free! Newcomer Customer 92 assigned to Server 0 (Service Time: 3).
+   --> [Queue Length: 0] [Server Status: S0(C92) S1(IDLE) S2(IDLE) ]
+[Time 256] Customer 92 finished service at Server 0.
+[Time 256] Customer 93 arrived.
+[Time 256] Server is free! Newcomer Customer 93 assigned to Server 0 (Service Time: 3).
+   --> [Queue Length: 0] [Server Status: S0(C93) S1(IDLE) S2(IDLE) ]
+[Time 259] Customer 93 finished service at Server 0.
+[Time 259] Customer 94 arrived.
+[Time 259] Server is free! Newcomer Customer 94 assigned to Server 0 (Service Time: 3).
+   --> [Queue Length: 0] [Server Status: S0(C94) S1(IDLE) S2(IDLE) ]
+[Time 261] Customer 95 arrived.
+[Time 261] Server is free! Newcomer Customer 95 assigned to Server 1 (Service Time: 5).
+   --> [Queue Length: 0] [Server Status: S0(C94) S1(C95) S2(IDLE) ]
+[Time 262] Customer 94 finished service at Server 0.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(C95) S2(IDLE) ]
+[Time 263] Customer 96 arrived.
+[Time 263] Server is free! Newcomer Customer 96 assigned to Server 0 (Service Time: 2).
+   --> [Queue Length: 0] [Server Status: S0(C96) S1(C95) S2(IDLE) ]
+[Time 265] Customer 96 finished service at Server 0.
+[Time 265] Customer 97 arrived.
+[Time 265] Server is free! Newcomer Customer 97 assigned to Server 0 (Service Time: 5).
+   --> [Queue Length: 0] [Server Status: S0(C97) S1(C95) S2(IDLE) ]
+[Time 266] Customer 95 finished service at Server 1.
+[Time 266] Customer 98 arrived.
+[Time 266] Server is free! Newcomer Customer 98 assigned to Server 1 (Service Time: 5).
+   --> [Queue Length: 0] [Server Status: S0(C97) S1(C98) S2(IDLE) ]
+[Time 268] Customer 99 arrived.
+[Time 268] Server is free! Newcomer Customer 99 assigned to Server 2 (Service Time: 4).
+   --> [Queue Length: 0] [Server Status: S0(C97) S1(C98) S2(C99) ]
+[Time 270] Customer 97 finished service at Server 0.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(C98) S2(C99) ]
+[Time 271] Customer 98 finished service at Server 1.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(IDLE) S2(C99) ]
+[Time 272] Customer 99 finished service at Server 2.
+   --> [Queue Length: 0] [Server Status: S0(IDLE) S1(IDLE) S2(IDLE) ]
+--------------------------------------------------------
+Simulation finished at clock tick: 272
